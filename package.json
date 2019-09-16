@@ -1,13 +1,13 @@
 {
   "name": "python-env",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "build3": "./python-env/dockerfile/build.sh python-env",
     "build27": "./python-env/dockerfile/build.sh python-env 2.7",
-    "build":""
+    "build": ""
   },
   "keywords": [],
   "author": "",
