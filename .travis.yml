@@ -10,9 +10,6 @@ branches:
 install:
 - npm  install
 script:
-- npm run lint && npm run test:cov
-after_script: "npm run coverage"
-after_success:
 - |
   if ([ "$TRAVIS_BRANCH" == "master" ] || [ ! -z "$TRAVIS_TAG" ]) && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     git config --global user.email "travis@travis-ci.org"
